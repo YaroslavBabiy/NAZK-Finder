@@ -1,0 +1,6 @@
+framework module Pods_NAZK_Finder {
+  umbrella header "Pods-NAZK Finder-umbrella.h"
+
+  export *
+  module * { export * }
+}

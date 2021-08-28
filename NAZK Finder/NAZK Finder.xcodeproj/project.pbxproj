@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44EFC3CB26D9FB7200F1A338 /* SearchPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC3C926D9FB7200F1A338 /* SearchPeopleCell.swift */; };
+		44EFC3CC26D9FB7200F1A338 /* SearchPeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EFC3CA26D9FB7200F1A338 /* SearchPeopleCell.xib */; };
+		44EFC3CE26DA1B8B00F1A338 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC3CD26DA1B8B00F1A338 /* ListViewController.swift */; };
+		44EFC3D126DA2E1700F1A338 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC3D026DA2E1700F1A338 /* AlertService.swift */; };
+		44F654E526D8F50D004DF739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F654E426D8F50D004DF739 /* AppDelegate.swift */; };
+		44F654E726D8F50D004DF739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F654E626D8F50D004DF739 /* SceneDelegate.swift */; };
+		44F654EC26D8F50D004DF739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F654EA26D8F50D004DF739 /* Main.storyboard */; };
+		44F654EE26D8F510004DF739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F654ED26D8F510004DF739 /* Assets.xcassets */; };
+		44F654F126D8F510004DF739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F654EF26D8F510004DF739 /* LaunchScreen.storyboard */; };
+		44F6550226D8F9D1004DF739 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6550126D8F9D1004DF739 /* SearchViewController.swift */; };
+		44F6550526D921DA004DF739 /* SearchPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6550426D921DA004DF739 /* SearchPerson.swift */; };
+		A6CE293F4BF745DE5A259E20 /* Pods_NAZK_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04307591871D696717D717F2 /* Pods_NAZK_Finder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04307591871D696717D717F2 /* Pods_NAZK_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAZK_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EFC3C926D9FB7200F1A338 /* SearchPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPeopleCell.swift; sourceTree = "<group>"; };
+		44EFC3CA26D9FB7200F1A338 /* SearchPeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchPeopleCell.xib; sourceTree = "<group>"; };
+		44EFC3CD26DA1B8B00F1A338 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		44EFC3D026DA2E1700F1A338 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		44F654E126D8F50D004DF739 /* NAZK Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAZK Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F654E426D8F50D004DF739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44F654E626D8F50D004DF739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44F654EB26D8F50D004DF739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44F654ED26D8F510004DF739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44F654F026D8F510004DF739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44F654F226D8F510004DF739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F6550126D8F9D1004DF739 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		44F6550426D921DA004DF739 /* SearchPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPerson.swift; sourceTree = "<group>"; };
+		46DDD86A03310CB5979AD077 /* Pods-NAZK Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAZK Finder.release.xcconfig"; path = "Target Support Files/Pods-NAZK Finder/Pods-NAZK Finder.release.xcconfig"; sourceTree = "<group>"; };
+		C5670488A63AF39D27D69FD4 /* Pods-NAZK Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAZK Finder.debug.xcconfig"; path = "Target Support Files/Pods-NAZK Finder/Pods-NAZK Finder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F654DE26D8F50D004DF739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CE293F4BF745DE5A259E20 /* Pods_NAZK_Finder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EFC3CF26DA2E0C00F1A338 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				44EFC3D026DA2E1700F1A338 /* AlertService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		44F654D826D8F50D004DF739 = {
+			isa = PBXGroup;
+			children = (
+				44F654E326D8F50D004DF739 /* NAZK Finder */,
+				44F654E226D8F50D004DF739 /* Products */,
+				4837DD624974AA1065D2422D /* Pods */,
+				8E846DCC64E82FA422E89A84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44F654E226D8F50D004DF739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44F654E126D8F50D004DF739 /* NAZK Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44F654E326D8F50D004DF739 /* NAZK Finder */ = {
+			isa = PBXGroup;
+			children = (
+				44F654F826D8F6BA004DF739 /* Application */,
+				44F654F926D8F6C4004DF739 /* Finder */,
+				44F654FA26D8F6CB004DF739 /* Supporting files */,
+			);
+			path = "NAZK Finder";
+			sourceTree = "<group>";
+		};
+		44F654F826D8F6BA004DF739 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				44F654FD26D8F710004DF739 /* Modal */,
+				44F654FC26D8F705004DF739 /* View */,
+				44F654FB26D8F6F5004DF739 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		44F654F926D8F6C4004DF739 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				44F6550026D8F751004DF739 /* Modal */,
+				44F654FF26D8F74C004DF739 /* View */,
+				44F654FE26D8F747004DF739 /* Controller */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		44F654FA26D8F6CB004DF739 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				44F654E626D8F50D004DF739 /* SceneDelegate.swift */,
+				44F654ED26D8F510004DF739 /* Assets.xcassets */,
+				44F654F226D8F510004DF739 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		44F654FB26D8F6F5004DF739 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44F654E426D8F50D004DF739 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44F654FC26D8F705004DF739 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44F654EF26D8F510004DF739 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44F654FD26D8F710004DF739 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				44EFC3CF26DA2E0C00F1A338 /* Service */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		44F654FE26D8F747004DF739 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44F6550126D8F9D1004DF739 /* SearchViewController.swift */,
+				44EFC3CD26DA1B8B00F1A338 /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44F654FF26D8F74C004DF739 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44F6550626D92D1D004DF739 /* SearchPeople */,
+				44F654EA26D8F50D004DF739 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44F6550026D8F751004DF739 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				44F6550326D921CA004DF739 /* SearchPerson */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		44F6550326D921CA004DF739 /* SearchPerson */ = {
+			isa = PBXGroup;
+			children = (
+				44F6550426D921DA004DF739 /* SearchPerson.swift */,
+			);
+			path = SearchPerson;
+			sourceTree = "<group>";
+		};
+		44F6550626D92D1D004DF739 /* SearchPeople */ = {
+			isa = PBXGroup;
+			children = (
+				44EFC3C926D9FB7200F1A338 /* SearchPeopleCell.swift */,
+				44EFC3CA26D9FB7200F1A338 /* SearchPeopleCell.xib */,
+			);
+			path = SearchPeople;
+			sourceTree = "<group>";
+		};
+		4837DD624974AA1065D2422D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5670488A63AF39D27D69FD4 /* Pods-NAZK Finder.debug.xcconfig */,
+				46DDD86A03310CB5979AD077 /* Pods-NAZK Finder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E846DCC64E82FA422E89A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04307591871D696717D717F2 /* Pods_NAZK_Finder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44F654E026D8F50D004DF739 /* NAZK Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F654F526D8F510004DF739 /* Build configuration list for PBXNativeTarget "NAZK Finder" */;
+			buildPhases = (
+				F1D5EAEFC4637385E999686A /* [CP] Check Pods Manifest.lock */,
+				44F654DD26D8F50D004DF739 /* Sources */,
+				44F654DE26D8F50D004DF739 /* Frameworks */,
+				44F654DF26D8F50D004DF739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAZK Finder";
+			productName = "NAZK Finder";
+			productReference = 44F654E126D8F50D004DF739 /* NAZK Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44F654D926D8F50D004DF739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					44F654E026D8F50D004DF739 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 44F654DC26D8F50D004DF739 /* Build configuration list for PBXProject "NAZK Finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44F654D826D8F50D004DF739;
+			productRefGroup = 44F654E226D8F50D004DF739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44F654E026D8F50D004DF739 /* NAZK Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F654DF26D8F50D004DF739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EFC3CC26D9FB7200F1A338 /* SearchPeopleCell.xib in Resources */,
+				44F654F126D8F510004DF739 /* LaunchScreen.storyboard in Resources */,
+				44F654EE26D8F510004DF739 /* Assets.xcassets in Resources */,
+				44F654EC26D8F50D004DF739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1D5EAEFC4637385E999686A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAZK Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F654DD26D8F50D004DF739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EFC3CB26D9FB7200F1A338 /* SearchPeopleCell.swift in Sources */,
+				44F6550226D8F9D1004DF739 /* SearchViewController.swift in Sources */,
+				44EFC3D126DA2E1700F1A338 /* AlertService.swift in Sources */,
+				44EFC3CE26DA1B8B00F1A338 /* ListViewController.swift in Sources */,
+				44F654E526D8F50D004DF739 /* AppDelegate.swift in Sources */,
+				44F6550526D921DA004DF739 /* SearchPerson.swift in Sources */,
+				44F654E726D8F50D004DF739 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44F654EA26D8F50D004DF739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F654EB26D8F50D004DF739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44F654EF26D8F510004DF739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F654F026D8F510004DF739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44F654F326D8F510004DF739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44F654F426D8F510004DF739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F654F626D8F510004DF739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5670488A63AF39D27D69FD4 /* Pods-NAZK Finder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66P7635FCR;
+				INFOPLIST_FILE = "NAZK Finder/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickspi.NAZK-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44F654F726D8F510004DF739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DDD86A03310CB5979AD077 /* Pods-NAZK Finder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66P7635FCR;
+				INFOPLIST_FILE = "NAZK Finder/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickspi.NAZK-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44F654DC26D8F50D004DF739 /* Build configuration list for PBXProject "NAZK Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F654F326D8F510004DF739 /* Debug */,
+				44F654F426D8F510004DF739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F654F526D8F510004DF739 /* Build configuration list for PBXNativeTarget "NAZK Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F654F626D8F510004DF739 /* Debug */,
+				44F654F726D8F510004DF739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44F654D926D8F50D004DF739 /* Project object */;
+}
